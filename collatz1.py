@@ -11,4 +11,5 @@ def collatz_conjecture(number):
     return iterations
 
 
-print(collatz_conjecture(5))
+# outputs chain count
+print(collatz_conjecture(20))

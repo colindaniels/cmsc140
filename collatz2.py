@@ -21,6 +21,7 @@ def collatz_max(min_n, max_n):
     return collatz_list.index(max(collatz_list)) + min_n, max(collatz_list)
 
 
-# outputs (max, chain_count)
+# inputs min and max
+# outputs (max_chain_number, chain_count)
 print(collatz_max(2, 30))
 
