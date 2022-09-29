@@ -10,7 +10,6 @@ def collatz_conjecture(number):
     return iterations
 
 
-
 def collatz_max(min_n, max_n):
     # iterate into a list that holds values of collatz_conjecture
     # max +1 to include last number
